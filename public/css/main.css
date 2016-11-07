@@ -1,0 +1,19 @@
+.grid{
+  margin-left: 10%;
+  margin-top: 5%;
+  padding-bottom: 20%;
+}
+
+.grid-item{
+  float:left;
+  width: 30%;
+  height: 30%;
+}
+
+.grid-width{
+  width: 28%;
+}
+
+.grid-height{
+  height: 20%;
+}
