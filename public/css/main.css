@@ -6,14 +6,21 @@
 
 .grid-item{
   float:left;
-  width: 30%;
-  height: 30%;
 }
 
 .grid-width{
-  width: 28%;
+  width: 22%;
+  height: 100%
 }
 
 .grid-height{
-  height: 20%;
+  width: 22%;
+}
+
+nav a{
+  float: left
+}
+
+nav a:hover{
+  color: red;
 }
