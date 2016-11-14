@@ -1,26 +1,56 @@
 .grid{
-  margin-left: 10%;
+  margin-left: 5%;
   margin-top: 5%;
   padding-bottom: 20%;
 }
 
 .grid-item{
   float:left;
+  width: 40px;
+  height: inherit;
 }
 
 .grid-width{
-  width: 22%;
-  height: 100%
+  width: 33%;
+  height: 100%;
 }
 
 .grid-height{
-  width: 22%;
+  width: 33%;
+}
+
+.grid-item img{
+	width: 100%;
+}
+
+nav{
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: gray;
+}
+
+a{
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 8%;
+	text-decoration: none;
 }
 
 nav a{
   float: left
 }
 
-nav a:hover{
+nav a:hover:not(.active){
   color: red;
 }
+
+.active{
+	background-color: blue;
+}
+
+.logo{
+	width: 25%;
+}
+
