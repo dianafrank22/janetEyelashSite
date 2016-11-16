@@ -1,56 +1,128 @@
-.grid{
-  margin-left: 5%;
-  margin-top: 5%;
-  padding-bottom: 20%;
+/*pink = #ED3E75
+black = #383838
+white = #f7f7f7
+dark grey = #6e6e6e
+light grey = #d4d4d4*/
+
+body{
+	background-color: #F7F7F7
+	color: #383838;
+	font-family: 'Open Sans', sans-serif;
 }
 
-.grid-item{
-  float:left;
-  width: 40px;
-  height: inherit;
-}
-
-.grid-width{
-  width: 33%;
-  height: 100%;
-}
-
-.grid-height{
-  width: 33%;
-}
-
-.grid-item img{
-	width: 100%;
-}
-
-nav{
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: gray;
-}
-
-a{
-	display: block;
-	color: black;
-	text-align: center;
-	padding: 14px 8%;
-	text-decoration: none;
-}
-
-nav a{
-  float: left
-}
-
-nav a:hover:not(.active){
-  color: red;
-}
-
-.active{
-	background-color: blue;
+.heading{
+	color: #383838;
+	font-family: 'Shrikhand', cursive;
 }
 
 .logo{
-	width: 25%;
+	width: 16%;
 }
+
+.flex ul{
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  list-style: none;
+  flex: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.flex li {
+  margin: 3%;
+  width: 20%;
+}
+
+
+
+.nav-div{
+  cursor: pointer;
+  position: relative;
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  float: left;
+  -webkit-filter: grayscale(100%);
+}
+
+h3.link-title{
+ color: #ED3E75;
+ position: absolute; 
+ text-align: center;
+ top: 35%;
+ left: 35%;
+ visibility: hidden;
+ opacity: 0;
+}
+
+#nav-1{
+ background-image: url('../img/1.jpg');
+}
+#nav-2{
+  background-image: url('../img/2.jpg');
+
+}
+#nav-3{
+  background-image: url('../img/3.jpg');  
+}
+#nav-4{
+   background-image: url('../img/4.jpg');
+}
+
+.nav-div:hover .link-title{
+  visibility: visible;
+  opacity: 1;
+}
+
+.nav-div:hover{
+  -webkit-filter: grayscale(0%);
+}
+
+/*a h1.heading:hover{
+	text-decoration: none;
+}*/
+/*
+@media only screen
+  and (min-width: 904px)
+  and (max-width: 1069px) {
+
+  }
+
+@media only screen
+and (min-width: 777px)
+and (max-width: 903px) {}
+
+  @media only screen
+  and (min-width: 668px)
+  and (max-width: 776px){}*/
+
+
+/*turn this into a scroll for the iphone*/
+/*make nav into hamburger menu*/
+/*for iphone portrait*/
+/*@media only screen
+  and (min-device-width: 200px)
+  and (max-device-width: 500px){
+  	.grid{
+  		width: 90%; 
+		overflow-y: hidden;
+		overflow-x: scroll;
+	    -webkit-overflow-scrolling: touch;
+	 	padding-top: 40px;
+		margin-bottom: 80px;
+  	}
+
+  	.grid-item{
+  		display: table-cell;
+  		width: 90%;
+  	}
+
+  	.grid-width, .grid-height{
+  		 width: 90%;
+
+  	}
+  }*/
+
 

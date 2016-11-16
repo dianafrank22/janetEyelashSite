@@ -1,0 +1,39 @@
+/*pink = #ED3E75
+black = #383838
+white = #f7f7f7
+dark grey = #6e6e6e
+light grey = #d4d4d4*/
+body{
+	color: #383838;
+}
+
+div.pricing{
+	background-color: #d4d4d4;
+	text-align: center;
+	margin-left: 15%;
+	margin-right: 15%;
+	padding-right: 5%;
+	padding-bottom: 5%;
+	margin-bottom: 20%;
+	box-shadow: 0 0 40px #6e6e6e;
+	}
+
+ul{
+	list-style: none;
+}
+
+div.coupon{
+	margin-top: 10%;
+	margin-left: 5%;
+	padding-left: 5%;
+	text-align: center;
+}
+
+nav + div {
+	margin-top: 5%;
+	padding-top: 20px;
+}
+
+h3.list-title{
+	font-size: 2em;
+}

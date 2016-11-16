@@ -1,0 +1,63 @@
+h1.faq{
+	text-align: center;
+  margin-top: 5%;
+  padding-top: 5%;
+}
+
+ul{
+	list-style: none;
+}
+
+ul.answer{
+	list-style: decimal;
+}
+
+h3{
+	padding-top: 2%;
+}
+
+h4.contact{
+	margin-top: 5%;
+  margin-left: 4%;
+}
+
+div.faq{
+  padding-bottom: 5%;
+  margin: 5%;
+  background-color: #d4d4d4;
+  box-shadow: 0 0 40px #6e6e6e;
+	
+}
+
+@media only screen
+  and (min-width: 904px)
+  and (max-width: 1069px) {
+  	
+  }
+
+@media only screen
+and (min-width: 777px)
+and (max-width: 903px) {
+
+}
+
+@media only screen
+and (min-width: 668px)
+and (max-width: 776px){}
+
+/*for iphone portrait*/
+@media only screen
+  and (min-device-width: 200px)
+  and (max-device-width: 500px){
+  	h3{
+  		font-size: 2em;
+  	}
+
+  	p{
+  		font-size: 1.3em;
+  	}
+
+  	ul.answer{
+  		font-size: 1.3em;
+  	}
+  }
