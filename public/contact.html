@@ -6,21 +6,28 @@
 	<title>Lashes By Janet</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Shrikhand" rel="stylesheet">
 	<link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/nav.css">
+
 </head>
 <body>
-<nav>
-  <a href="index.html">
-  <h1 class="heading"> Lashes By Janet</h1>
-    <object data="./img/eyelashes.svg" type="image/svg+xml" class="logo">
-    <img src= "./img/eyelashes.png">
-    </object>
-  <h3 class="heading">Eyelash Extension Specialist</h3>
-  </a>
-  <a class="nav" href="about.html">About</a>
-  <a class="nav" href="pricing.html">Pricing</a>
-  <a class="nav active" href="contact.html">Contact</a>
-  <a class="nav" href="faq.html">FAQ</a>
+<header>
+<a href="index.html">
+  <img src="./img/lashes2.png" class="logo"/>
+</a>
+</header>
+
+<div class="wrapper">
+
+<nav class="flex">
+  <ul>
+    <li><a href="about.html"><div id="nav-1" class="nav-div"><h3 class="link-title"> About </h3></div></a></li>
+    <li><a href="faq.html"><div id="nav-2" class="nav-div"> <h3 class="link-title"> FAQ </h3></div></a></li>
+    <li><a href="pricing.html"><div id="nav-3" class="nav-div"><h3 class="link-title"> Pricing</h3></div></a></li>
+    <li><a href="contact.html"><div id="nav-4" class="nav-div"><h3 class="link-title"> Contact</h3></div></a></li>
+  </ul>
 </nav>
+
+
 <h2>Contact</h2>
 <h3> Address</h3>
 <!-- look into html semantics -->
@@ -42,6 +49,12 @@
 facebook
 
 instagram
+
+
+<footer>
+<a href="faq.html"> FAQ </a>
+Copyright Diana Frank Dev 2016
+</footer>
 </body>
 <script src="./js/masonry.pkgd.min.js"></script>
 </html>

@@ -1,0 +1,27 @@
+.flex ul{
+  -webkit-box-flex: auto;
+  -ms-flex: auto;
+  list-style: none;
+  flex: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 4%;
+  margin-bottom: 10%;
+  margin-top: 7%;
+}
+
+.flex li {
+  flex: 3;
+}
+
+
+.nav-div{
+  cursor: pointer;
+  position: relative;
+  background-size: cover;
+  width: 250px;
+  height: 250px;
+  margin: 5px 0 0 10px;
+  -webkit-filter: grayscale(10%);
+}

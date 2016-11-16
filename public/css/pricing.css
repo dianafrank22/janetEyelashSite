@@ -10,13 +10,14 @@ body{
 div.pricing{
 	background-color: #d4d4d4;
 	text-align: center;
-	margin-left: 15%;
-	margin-right: 15%;
+	margin-left: 10%;
+	/*margin-right: 15%;*/
 	padding-right: 5%;
 	padding-bottom: 5%;
 	margin-bottom: 20%;
-	box-shadow: 0 0 40px #6e6e6e;
+	box-shadow: 0 0 20px #6e6e6e;
 	}
+
 
 ul{
 	list-style: none;
@@ -30,7 +31,7 @@ div.coupon{
 }
 
 nav + div {
-	margin-top: 5%;
+	margin-top: 4%;
 	padding-top: 20px;
 }
 

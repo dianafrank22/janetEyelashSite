@@ -10,55 +10,37 @@ body{
 	font-family: 'Open Sans', sans-serif;
 }
 
-.heading{
-	color: #383838;
-	font-family: 'Shrikhand', cursive;
+header{
+  width: 100%;
+  text-align: center;
+  border-bottom-style: dotted;
+  border-bottom-color: #ED3E75;
 }
 
 .logo{
-	width: 16%;
-}
-
-.flex ul{
-  -webkit-box-flex: auto;
-  -ms-flex: auto;
-  list-style: none;
-  flex: auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.flex li {
-  margin: 3%;
-  width: 20%;
-}
-
-
-
-.nav-div{
-  cursor: pointer;
-  position: relative;
-  background-size: cover;
-  width: 300px;
-  height: 200px;
-  margin: 10px 0 0 10px;
-  float: left;
-  -webkit-filter: grayscale(100%);
+	width: 50%;
+  height: 50%;
+  display: inline-block;
+  margin: 0 auto;
 }
 
 h3.link-title{
  color: #ED3E75;
  position: absolute; 
  text-align: center;
- top: 35%;
- left: 35%;
+ top: 30%;
+ left: 30%;
  visibility: hidden;
  opacity: 0;
+ font-weight: bold;
+ font-size: 2em;
+ font-family: "Shrikhand";
+ z-index: 100;
 }
 
 #nav-1{
  background-image: url('../img/1.jpg');
+ 
 }
 #nav-2{
   background-image: url('../img/2.jpg');
@@ -76,9 +58,11 @@ h3.link-title{
   opacity: 1;
 }
 
-.nav-div:hover{
-  -webkit-filter: grayscale(0%);
-}
+/*.nav-div:hover{
+  -webkit-filter: grayscale(100%);
+  border-style: dotted; 
+  border-color: #ED3E75;
+}*/
 
 /*a h1.heading:hover{
 	text-decoration: none;
