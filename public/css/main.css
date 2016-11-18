@@ -40,7 +40,7 @@ h3.link-title{
 
 #nav-1{
  background-image: url('../img/1.jpg');
- 
+
 }
 #nav-2{
   background-image: url('../img/2.jpg');
@@ -56,6 +56,17 @@ h3.link-title{
 .nav-div:hover .link-title{
   visibility: visible;
   opacity: 1;
+}
+
+/*https://codepen.io/cbracco/pen/zekgx*/
+
+.footer{
+  position: absolute;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #ED3E75;
+  text-align: center;
 }
 
 /*.nav-div:hover{
