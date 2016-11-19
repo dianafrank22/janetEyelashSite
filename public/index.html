@@ -14,17 +14,21 @@
 
 <a href="index.html">
   <img src="./img/lashes2.png" class="logo"/>
+  <img src="./img/mobilelash.png" class="mobileLogo">
 </a>
 </header>
 
 
 <!-- make these images responsive -->
 <nav class="flex">
-  <ul>
+  <ul class="nav" id="navigation">
     <li><a href="about.html"><div id="nav-1" class="nav-div"><h3 class="link-title"> About </h3></div></a></li>
     <li><a href="faq.html"><div id="nav-2" class="nav-div"> <h3 class="link-title"> FAQ </h3></div></a></li>
     <li><a href="pricing.html"><div id="nav-3" class="nav-div"><h3 class="link-title"> Pricing</h3></div></a></li>
     <li><a href="contact.html"><div id="nav-4" class="nav-div"><h3 class="link-title"> Contact</h3></div></a></li>
+    <li class="icon">
+      <a href="javascript:void(0);" onclick="toggleMenu()">&#9776;</a>
+    </li>
   </ul>
 </nav>
 
@@ -36,10 +40,10 @@
 
 <footer class ="footer">
 <a href="faq.html"> FAQ </a>
-Copyright Diana Frank Dev 2016
+Diana Frank Dev© 2016
 </footer>
 </body>
+<script src="./js/main.js"></script>  
 <script src="./js/jquery-2.1.4.js"></script>	
-<script src="./js/main.js"></script>	
 <script src="./js/masonry.pkgd.min.js"></script>
 </html>

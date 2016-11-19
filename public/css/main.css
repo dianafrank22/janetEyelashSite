@@ -58,8 +58,15 @@ h3.link-title{
   opacity: 1;
 }
 
-/*https://codepen.io/cbracco/pen/zekgx*/
+ul.nav li.icon{
+  display: none;
+}
 
+.mobileLogo{
+  display: none;
+}
+
+/*make footer sticky to bottom*/
 .footer{
   position: absolute;
   right: 0;
@@ -67,6 +74,10 @@ h3.link-title{
   padding: 1rem;
   background-color: #ED3E75;
   text-align: center;
+}
+
+.footer a {
+  font-family: "Shrikhand";
 }
 
 /*.nav-div:hover{
@@ -78,7 +89,7 @@ h3.link-title{
 /*a h1.heading:hover{
 	text-decoration: none;
 }*/
-/*
+
 @media only screen
   and (min-width: 904px)
   and (max-width: 1069px) {
@@ -89,35 +100,80 @@ h3.link-title{
 and (min-width: 777px)
 and (max-width: 903px) {}
 
-  @media only screen
-  and (min-width: 668px)
-  and (max-width: 776px){}*/
+
+
+@media only screen
+and (min-width: 668px)
+and (max-width: 776px){
+  ul.nav div.nav-div{
+    display: none;
+  }
+
+  ul.nav li.icon {
+    float: right;
+    display: inline-block;
+    color: black;
+  }
+}
 
 
 /*turn this into a scroll for the iphone*/
 /*make nav into hamburger menu*/
 /*for iphone portrait*/
-/*@media only screen
+@media only screen
   and (min-device-width: 200px)
   and (max-device-width: 500px){
-  	.grid{
-  		width: 90%; 
-		overflow-y: hidden;
-		overflow-x: scroll;
-	    -webkit-overflow-scrolling: touch;
-	 	padding-top: 40px;
-		margin-bottom: 80px;
-  	}
+  .logo{
+    display: none;
+  }
 
-  	.grid-item{
-  		display: table-cell;
-  		width: 90%;
-  	}
+  .mobileLogo{
+    display: inline-block;
+  }
 
-  	.grid-width, .grid-height{
-  		 width: 90%;
+  ul.nav li.icon{
+    float: right;
+    display: inline-block;
+    color: black;
+  }  
 
-  	}
-  }*/
+  header{
+  width: 100%;
+  text-align: center;
+}
+
+.logo{
+  width: 90%;
+  height: 90%;
+  display: inline-block;
+  margin: 0 auto;
+}
+
+  ul.nav.responsive li.icon{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    color: black;
+  }  
+
+  ul.nav div.nav-div{
+    display: none;
+  }
+
+  ul.nav.responsive{
+   position: relative;
+  }
+
+  ul.nav.responsive li{
+    float: none;
+    display: inline;
+  }
+
+  ul.nav.responsive li a{
+    display: block;
+    text-align: left;
+    }
+  }
 
 

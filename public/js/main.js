@@ -1,13 +1,11 @@
 "use strict";
-$(document).ready(function(){
-	var clickedLogo = function(){
-		setTimeout(function(){
-			$('openEye').hover(function(){
-			$(this).addClass("hide");
-			$('.closedEye').removeClass("hide");
-		})
-		}, 25000);
-
-	};
-	clickedLogo();
-})
+function toggleMenu(){
+  var x = document.getElementById("navigation")
+  console.log(x.className)
+	if (x.className === "nav"){
+		x.className += "responsive";
+		console.log(x.className)
+	}else{
+		x.className = "nav";
+	}
+}
