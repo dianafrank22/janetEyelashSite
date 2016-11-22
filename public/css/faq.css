@@ -25,7 +25,9 @@ div.faq{
   padding-bottom: 5%;
   margin: 5%;
   background-color: #d4d4d4;
-  box-shadow: 0 0 40px #6e6e6e;
+  box-shadow: 0 4px 3px #6e6e6e;
+  overflow-y: scroll;
+  height: 150vh;
 	
 }
 

@@ -25,3 +25,16 @@
   margin: 5px 0 0 10px;
   -webkit-filter: grayscale(10%);
 }
+
+@media only screen
+  and (min-device-width: 200px)
+  and (max-device-width: 500px){
+
+  #nav-1 ,#nav-2, #nav-3, #nav-4{
+   background-image: none;
+   background-color: #d4d4d4;
+   width: 250px;
+   height: 250px;
+  }
+
+  }

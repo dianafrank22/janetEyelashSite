@@ -58,7 +58,7 @@ h3.link-title{
   opacity: 1;
 }
 
-ul.nav li.icon{
+ul.nav li.icon a{
   display: none;
 }
 
@@ -109,7 +109,7 @@ and (max-width: 776px){
     display: none;
   }
 
-  ul.nav li.icon {
+  ul.nav li.icon a{
     float: right;
     display: inline-block;
     color: black;
@@ -129,32 +129,36 @@ and (max-width: 776px){
 
   .mobileLogo{
     display: inline-block;
+    width: 90%;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 35%;
   }
 
-  ul.nav li.icon{
-    float: right;
+ ul.nav li.icon a{
+    float: center;
     display: inline-block;
-    color: black;
+    color: #ED3E75;
+    text-decoration: none;
+    text-align: center;
+    font-size: 6em;
+    margin-left: 42.5vw;
   }  
 
   header{
   width: 100%;
   text-align: center;
+  border-style: none;
 }
 
-.logo{
-  width: 90%;
-  height: 90%;
-  display: inline-block;
-  margin: 0 auto;
-}
 
   ul.nav.responsive li.icon{
     display: inline-block;
     position: absolute;
     right: 0;
     left: 0;
-    color: black;
+    color: #ED3E75;
+
   }  
 
   ul.nav div.nav-div{
@@ -174,6 +178,7 @@ and (max-width: 776px){
     display: block;
     text-align: left;
     }
+
   }
 
 
