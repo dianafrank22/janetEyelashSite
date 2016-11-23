@@ -94,19 +94,6 @@ img.footer-social{
   text-align: center;
 }
 
-div.footer{
-  margin-left: auto;
-  margin-right: auto;
-}
-/*.nav-div:hover{
-  -webkit-filter: grayscale(100%);
-  border-style: dotted; 
-  border-color: #ED3E75;
-}*/
-
-/*a h1.heading:hover{
-	text-decoration: none;
-}*/
 
 @media only screen
   and (min-width: 904px)
@@ -166,7 +153,6 @@ and (max-width: 776px){
     text-decoration: none;
     text-align: center;
     font-size: 6em;
-    margin-left: 42.5vw;
     cursor: pointer;
   }  
 
@@ -190,19 +176,48 @@ and (max-width: 776px){
     display: none;
   }
 
+ div#nav-1.nav-div.responsive,
+ div#nav-2.nav-div.responsive,
+ div#nav-3.nav-div.responsive,
+ div#nav-4.nav-div.responsive{
+    display: block;
+  }
+
+  li#icon.responsive{
+    display: none;
+  }
+
   ul.nav.responsive{
    position: relative;
   }
 
   ul.nav.responsive li{
-    float: none;
-    display: inline;
+    display: block;
   }
 
   ul.nav.responsive li a{
     display: block;
     text-align: left;
     }
+
+  .flex ul{
+    display: flex;
+    flex-direction: column;
+  }
+
+  h3.link-title{
+     color: #ED3E75;
+     position: absolute; 
+     text-align: center;
+     top: 30%;
+     left: 43%;
+     visibility: visible;
+     opacity: 1;
+     font-weight: bold;
+     font-size: 2em;
+     font-family: "Shrikhand";
+     z-index: 100;
+  }
 
   }
 
