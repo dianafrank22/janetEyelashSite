@@ -76,15 +76,28 @@ ul.nav li.icon a{
   position: relative;
   left: 0;
   bottom: 0;
-  height: 50px;
   width: 100%;
 }
 
 .footer a {
   font-family: "Shrikhand";
   text-align: center;
+  text-decoration: none;
 }
 
+img.footer-social{
+  margin: 20px 10px;
+  width: 50px;
+}
+
+.footer p{
+  text-align: center;
+}
+
+div.footer{
+  margin-left: auto;
+  margin-right: auto;
+}
 /*.nav-div:hover{
   -webkit-filter: grayscale(100%);
   border-style: dotted; 
