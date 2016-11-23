@@ -1,4 +1,4 @@
-div.about{
+div.contact{
 	background-color: #d4d4d4;
 	text-align: center;
 	margin: 5%;
@@ -7,12 +7,4 @@ div.about{
 	padding-bottom: 5%;
 	margin-bottom: 20%;
 	box-shadow: 0 4px 3px #6e6e6e;
-	text-align: left;
 }
-
-h2.about{
-  text-align: center;
-  margin-top: 5%;
-  padding-top: 5%;
-}
-

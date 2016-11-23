@@ -73,7 +73,7 @@ ul.nav li.icon a{
   align-items: flex-end;
   background-color: #ED3E75;
   text-align: center;
-  position: absolute;
+  position: relative;
   left: 0;
   bottom: 0;
   height: 50px;
