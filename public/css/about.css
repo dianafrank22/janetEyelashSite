@@ -16,3 +16,20 @@ h2.about{
   padding-top: 5%;
 }
 
+
+@media only screen
+  and (min-device-width: 200px)
+  and (max-device-width: 667px){
+  	img.mobileLogo{
+  		width: 50%;
+  		margin-top: 20%;
+  	}
+
+  	div.about{
+  	  background-color: #d4d4d4;
+	  padding-right: 5%;
+	  padding-bottom: 5%;
+	  box-shadow: 0 4px 3px #6e6e6e;
+	  text-align: left;
+  	}
+ }

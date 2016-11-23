@@ -8,3 +8,7 @@ div.contact{
 	margin-bottom: 20%;
 	box-shadow: 0 4px 3px #6e6e6e;
 }
+
+img.contact-image{
+	height: 10%;
+}

@@ -37,3 +37,33 @@ align-items: flex-end;*/
   display: flex;
   justify-content: center;
 }
+
+
+@media only screen
+  and (min-device-width: 200px)
+  and (max-device-width: 667px){
+    .flex ul{
+      justify-content: center;
+      align-items: center;
+    }
+
+    .wrapper{
+      flex-direction: column;
+    }
+
+    #nav-1 ,#nav-2, #nav-3, #nav-4{
+     background-image: none;
+     background-color: #d4d4d4;
+     width: 90vw;
+     height: 100px;
+   }
+
+   .nav-div{
+      margin: 2% 0;
+   }
+
+   h3.link-title{
+    top: 0%;
+   }
+
+ }

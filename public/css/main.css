@@ -24,6 +24,10 @@ header{
   margin: 0 auto;
 }
 
+h2,h3,h4{
+  color: #ED3E75;
+}
+
 h3.link-title{
  color: #ED3E75;
  position: absolute; 
@@ -90,6 +94,10 @@ img.footer-social{
   width: 50px;
 }
 
+.footer h2, h3, a{
+  color: black;
+}
+
 .footer p{
   text-align: center;
 }
@@ -143,7 +151,7 @@ and (max-width: 776px){
     width: 90%;
     display: inline-block;
     margin: 0 auto;
-    margin-top: 35%;
+    margin-top: 10%;
   }
 
  ul.nav li.icon a{
