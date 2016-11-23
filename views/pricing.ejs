@@ -11,20 +11,8 @@
 	<link rel="stylesheet" href="./css/normalize.css">
 </head>
 <body>
-<header>
-<a href="index.html">
-  <img src="./img/lashes2.png" class="logo"/>
-</a>
-</header>
-
-<div class="wrapper">
-  <nav class="flex">
-    <ul>
-      <li><a href="about.html"><div id="nav-1" class="nav-div"><h3 class="link-title"> About </h3></div></a></li>
-      <li><a href="faq.html"><div id="nav-2" class="nav-div"> <h3 class="link-title"> FAQ </h3></div></a></li>
-      <li><a href="contact.html"><div id="nav-4" class="nav-div"><h3 class="link-title"> Contact</h3></div></a></li>
-    </ul>
-  </nav>
+<% include header.ejs %>
+<% include nav.ejs %>
 
   <div class="pricing">
     <ul>
@@ -51,11 +39,8 @@
 </div>
 
 
+<% include footer.ejs %>
 
-<footer class ="footer">
-  <a href="faq.html"> FAQ </a>
-  Copyright Diana Frank Dev © 2016
-</footer>
 
 </body>
 <script src="./js/masonry.pkgd.min.js"></script>
