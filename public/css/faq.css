@@ -2,6 +2,7 @@ h1.faq{
 	text-align: center;
   margin-top: 5%;
   padding-top: 5%;
+  font-size: 1.5em;
 }
 
 ul{
@@ -28,7 +29,11 @@ div.faq{
   box-shadow: 0 4px 3px #6e6e6e;
   overflow-y: scroll;
   height: 150vh;
-	
+	font-size: 1em;
+}
+
+li p{
+  padding-right: 4%;
 }
 
 @media only screen

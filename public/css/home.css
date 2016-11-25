@@ -3,6 +3,7 @@
   -ms-flex: auto;
   list-style: none;
   flex: auto;
+  flex-wrap: wrap;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -12,7 +13,7 @@
 }
 
 .flex li {
-  flex: 3;
+  flex: 1;
 }
 
 
@@ -26,6 +27,11 @@
   -webkit-filter: grayscale(10%);
 }
 
+.nav-image{
+  width: 100%;
+  overflow: hidden;
+}
+
 @media only screen
   and (min-device-width: 200px)
   and (max-device-width: 500px){
@@ -35,7 +41,7 @@
    background-image: none;
    background-color: #d4d4d4;
    width: 90vw;
-   height: 200px;
+   height: 150px;
   }
 
   }
