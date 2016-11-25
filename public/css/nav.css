@@ -1,6 +1,3 @@
-/*flex-direction: column;
-align-items: flex-end;*/
-
 .flex ul{
   -webkit-box-flex: auto;
   -ms-flex: auto;
@@ -26,7 +23,6 @@ align-items: flex-end;*/
   width: 250px;
   height: 250px;
   margin: 10% 0 0 10%;
-  /*float: left;*/
   -webkit-filter: grayscale(10%);
 }
 
@@ -65,5 +61,98 @@ align-items: flex-end;*/
    h3.link-title{
     top: 0%;
    }
+
+    ul.nav div.nav-div{
+    display: none;
+  }
+
+  ul.nav li.icon a{
+    float: right;
+    display: inline-block;
+    color: black;
+  }
+
+    body{
+      width: 100vw;
+      height: 100vh;
+    }
+
+  .logo{
+    display: none;
+  }
+
+  .mobileLogo{
+    display: inline-block;
+    width: 90%;
+    display: inline-block;
+    margin: 0 auto;
+    margin-top: 10%;
+  }
+
+ ul.nav li.icon a{
+    float: center;
+    display: inline-block;
+    color: #ED3E75;
+    text-decoration: none;
+    text-align: center;
+    font-size: 6em;
+    cursor: pointer;
+  }  
+
+  ul.nav.responsive li.icon{
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    color: #ED3E75;
+
+  }  
+
+  ul.nav div.nav-div{
+    display: none;
+  }
+
+ div#nav-1.nav-div.responsive,
+ div#nav-2.nav-div.responsive,
+ div#nav-3.nav-div.responsive,
+ div#nav-4.nav-div.responsive{
+    display: block;
+  }
+
+  li#icon.responsive{
+    display: none;
+  }
+
+  ul.nav.responsive{
+   position: relative;
+  }
+
+  ul.nav.responsive li{
+    display: block;
+  }
+
+  ul.nav.responsive li a{
+    display: block;
+    text-align: left;
+    }
+
+  .flex ul{
+    display: flex;
+    flex-direction: column;
+  }
+
+  h3.link-title{
+     color: #ED3E75;
+     position: absolute; 
+     text-align: center;
+     top: 0%;
+     left: 40%;
+     visibility: visible;
+     opacity: 1;
+     font-weight: bold;
+     font-size: 4em;
+     font-family: "Shrikhand";
+     z-index: 100;
+  }
 
  }

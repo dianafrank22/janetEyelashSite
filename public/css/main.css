@@ -92,14 +92,14 @@ footer{
 
 img.footer-social{
   /*margin: 20px 0px;*/
-  width: 30px;
+  width: 20px;
   text-align: center;
 
 }
 
 .footer h2, h3, a, p, h5{
   color: black;
-  font-size: .8em;
+  font-size: .7em;
   text-align: center;
   clear: both
 }
@@ -119,118 +119,14 @@ img.footer-social{
 }
 
 
-
-/*@media only screen
-and (min-width: 668px)
-and (max-width: 776px){
-
-}*/
-
-
-/*turn this into a scroll for the iphone*/
-/*make nav into hamburger menu*/
-/*for iphone portrait*/
 @media only screen
   and (min-device-width: 200px)
   and (max-device-width: 667px){
-  ul.nav div.nav-div{
-    display: none;
-  }
-
-  ul.nav li.icon a{
-    float: right;
-    display: inline-block;
-    color: black;
-  }
-
-    body{
-      width: 100vw;
-      height: 100vh;
-    }
-
-  .logo{
-    display: none;
-  }
-
-  .mobileLogo{
-    display: inline-block;
-    width: 90%;
-    display: inline-block;
-    margin: 0 auto;
-    margin-top: 10%;
-  }
-
- ul.nav li.icon a{
-    float: center;
-    display: inline-block;
-    color: #ED3E75;
-    text-decoration: none;
-    text-align: center;
-    font-size: 6em;
-    cursor: pointer;
-  }  
-
+ 
   header{
-  width: 100%;
-  text-align: center;
-  border-style: none;
-}
-
-
-  ul.nav.responsive li.icon{
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    left: 0;
-    color: #ED3E75;
-
-  }  
-
-  ul.nav div.nav-div{
-    display: none;
-  }
-
- div#nav-1.nav-div.responsive,
- div#nav-2.nav-div.responsive,
- div#nav-3.nav-div.responsive,
- div#nav-4.nav-div.responsive{
-    display: block;
-  }
-
-  li#icon.responsive{
-    display: none;
-  }
-
-  ul.nav.responsive{
-   position: relative;
-  }
-
-  ul.nav.responsive li{
-    display: block;
-  }
-
-  ul.nav.responsive li a{
-    display: block;
-    text-align: left;
-    }
-
-  .flex ul{
-    display: flex;
-    flex-direction: column;
-  }
-
-  h3.link-title{
-     color: #ED3E75;
-     position: absolute; 
-     text-align: center;
-     top: 0%;
-     left: 40%;
-     visibility: visible;
-     opacity: 1;
-     font-weight: bold;
-     font-size: 4em;
-     font-family: "Shrikhand";
-     z-index: 100;
+    width: 100%;
+    text-align: center;
+    border-style: none;
   }
 
   footer{
@@ -246,4 +142,13 @@ and (max-width: 776px){
 
   }
 
+  @media only screen
+  and (min-device-width: 200px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape){
+    footer{
+      position: relative;
+    }
+  }
 

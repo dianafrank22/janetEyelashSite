@@ -27,21 +27,18 @@
   -webkit-filter: grayscale(10%);
 }
 
-.nav-image{
-  width: 100%;
-  overflow: hidden;
-}
 
 @media only screen
   and (min-device-width: 200px)
   and (max-device-width: 500px){
 
+  .nav-div{
+    width: 300px;
+    height: 300px;
+  }
 
-  #nav-1 ,#nav-2, #nav-3, #nav-4{
-   background-image: none;
-   background-color: #d4d4d4;
-   width: 90vw;
-   height: 150px;
+  .flex ul{
+    margin-right: 0%;
   }
 
   }
