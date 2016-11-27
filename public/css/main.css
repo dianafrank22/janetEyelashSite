@@ -32,17 +32,18 @@ h3.link-title{
  color: #ED3E75;
  position: absolute; 
  text-align: center;
- top: 30%;
- left: 30%;
- visibility: hidden;
- opacity: 0;
+ /*visibility: hidden;*/
+ /*opacity: 0;*/
  font-weight: bold;
  font-size: 2em;
+ bottom: 10%;
  font-family: "Shrikhand";
  z-index: 100;
+ margin-top: -19%;
+ margin-left: 9%;
 }
 
-
+/*
 #nav-1{
  background-image: url('../img/1.jpg');
 
@@ -56,7 +57,7 @@ h3.link-title{
 }
 #nav-4{
    background-image: url('../img/4.jpg');
-}
+}*/
 
 .nav-div:hover .link-title{
   visibility: visible;
@@ -71,8 +72,6 @@ ul.nav li.icon a{
   display: none;
 }
 
-
-/*make footer sticky to bottom*/
 footer{
   display: flex;
   align-items: flex-end;

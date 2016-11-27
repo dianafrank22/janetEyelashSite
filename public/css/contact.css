@@ -12,3 +12,13 @@ div.contact{
 img.contact-image{
 	height: 10%;
 }
+
+@media only screen
+  and (min-device-width: 200px)
+  and (max-device-width: 667px){
+
+img.contact-image{
+  height: 5%;
+}
+
+}
