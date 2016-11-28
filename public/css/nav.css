@@ -36,7 +36,7 @@ ul.flex{
 @media only screen
   and (min-device-width: 200px)
   and (max-device-width: 667px){
-    ul.flex{
+    ul#navigation.nav{
       justify-content: center;
       align-items: center;
       list-style: none;
@@ -51,35 +51,33 @@ ul.flex{
       flex-direction: column;
     }
 
-    #nav-1 ,#nav-2, #nav-3, #nav-4{
+    .box.responsive{
      background-image: none;
-     background-color: #d4d4d4;
      width: 90vw;
      height: 100px;
    }
 
-   .nav-div{
+  .nav-div{
       margin: 2% 0;
    }
 
-   h3.link-title{
-    top: 0%;
+  .box-image{
+    display: none;
    }
 
-    ul.nav div.nav-div{
+  ul.nav div.nav-div{
     display: none;
   }
 
   ul.nav li.icon a{
-    float: right;
+    float: center;
     display: inline-block;
-    color: black;
+    color: #ED3E75;
+    text-decoration: none;
+    text-align: center;
+    font-size: 6em;
+    cursor: pointer;
   }
-
-    body{
-      width: 100vw;
-      height: 100vh;
-    }
 
   .logo{
     display: none;
@@ -93,37 +91,15 @@ ul.flex{
     margin-top: 10%;
   }
 
- ul.nav li.icon a{
-    float: center;
-    display: inline-block;
-    color: #ED3E75;
-    text-decoration: none;
-    text-align: center;
-    font-size: 6em;
-    cursor: pointer;
-  }  
-
-  ul.nav.responsive li.icon{
-    display: inline-block;
-    position: absolute;
-    right: 0;
-    left: 0;
-    color: #ED3E75;
-
-  }  
 
   ul.nav div.nav-div{
     display: none;
   }
 
- div.nav-div.responsive{
+  ul.nav div.nav-div.responsive{
     display: block;
  }
 
-
-  li#icon.responsive{
-    display: none;
-  }
 
   ul.nav.responsive{
    position: relative;
@@ -138,23 +114,39 @@ ul.flex{
     text-align: left;
     }
 
-  .flex ul{
-    display: flex;
-    flex-direction: column;
-  }
-
   h3.link-title{
      color: #ED3E75;
      position: absolute; 
      text-align: center;
-     top: 0%;
-     left: 40%;
+     top: -63%;
+     margin-left: -10%;
      visibility: visible;
      opacity: 1;
      font-weight: bold;
-     font-size: 4em;
+     font-size: 3em;
      font-family: "Shrikhand";
      z-index: 100;
   }
 
+  .caption{
+    background-color: #d4d4d4;
+    height: 17%;
+    width: 80%;
+  }
+
  }
+
+     @media only screen
+  and (min-device-width: 200px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape){
+    .caption{
+      margin-left: 5%;
+    }
+
+      h3.link-title{
+        margin-left: -15%;
+      }
+
+  }
