@@ -5,7 +5,7 @@ dark grey = #6e6e6e
 light grey = #d4d4d4*/
 
 body{
-	background-color: #F7F7F7
+	background-color: #F7F7F7;
 	color: #383838;
 	font-family: 'Open Sans', sans-serif;
 }
@@ -139,5 +139,6 @@ img.footer-social{
     footer{
       position: relative;
     }
+
   }
 

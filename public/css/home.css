@@ -28,6 +28,9 @@ ul.flex{
 @media only screen
   and (min-device-width: 200px)
   and (max-device-width: 500px){
+  ul.flex{
+    height: 45vh;
+  }
 
   .nav-div{
     width: 300px;
@@ -38,4 +41,34 @@ ul.flex{
     margin-right: 0%;
   }
 
+  h3.link-title{
+   visibility: visible;
+   opacity: 1;
+   margin-left: 25%;
+   margin-top: 50%;
+  }
+
+  .caption{
+    width: 20%;
+  }
+
+  }
+
+    @media only screen
+  and (min-device-width: 200px)
+  and (max-device-width: 667px)
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape){
+     h3.link-title{
+       visibility: visible;
+       opacity: 1;
+       margin-left: -30%; 
+       margin-top: 30%;
+      }
+
+      .caption{
+      width: 40%;
+      height: ;
+    }
+    
   }
