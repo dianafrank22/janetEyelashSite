@@ -2,7 +2,7 @@ h1.faq{
 	text-align: center;
   margin-top: 5%;
   padding-top: 5%;
-  font-size: 1.5em;
+  font-size: 2em;
 }
 
 ul{
@@ -11,6 +11,15 @@ ul{
 
 ul.answer{
 	list-style: decimal;
+  text-align: left;
+}
+
+ul.answer.list li{
+  font-size: 1em;
+}
+
+ul.answer.list li p{
+  text-align: left;
 }
 
 h3{
@@ -20,6 +29,7 @@ h3{
 h4.contact{
 	margin-top: 5%;
   margin-left: 4%;
+  text-align: center;
 }
 
 div.faq{

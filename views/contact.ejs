@@ -9,6 +9,7 @@
 	<link rel="stylesheet" href="./css/main.css">
   <link rel="stylesheet" href="./css/nav.css">
   <link rel="stylesheet" href="./css/contact.css">
+  <link rel="stylesheet" href="./css/normalize.css">
 </head>
 <body>
 <% include header.ejs %>
@@ -16,23 +17,24 @@
 <div class="wrapper">
 <% include nav.ejs %>
 <div class="contact">
-
-      <h2>Contact</h2>
-      <h3> Address</h3>
+      <h1>Contact</h1>
+      <h2> Address</h2>
       <address>
         861 Montauk Highway
         Bayport, NY
       </address>
 
       <div class="phone">
-        <h3> Phone </h3>
-        631.793.0872
+        <h2> Phone </h2>
+       <h3> 631.793.0872</h3>
       </div>
 
       <div class="email">  
-        <h3>Email</h3>
-        jrdibar@yahoo.com
+        <h2>Send Me An Email</h2>
+        <h3>jrdibar@yahoo.com</h3>
       </div>
+
+      <h2> Call or Email to schedule an appointment to get your perfect lashes!</h2>
 
       <a href="https://www.instagram.com/eyelashextensionsbyjanet/"><img class="contact-image" src="./img/fb-blue.png"></a>
 
@@ -44,5 +46,4 @@
 <% include footer.ejs %>
 </body>
 <script src="./js/main.js"></script>  
-<script src="./js/masonry.pkgd.min.js"></script>
 </html>

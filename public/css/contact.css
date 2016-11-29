@@ -2,7 +2,7 @@ div.contact{
 	background-color: #d4d4d4;
 	text-align: center;
 	margin: 5%;
-	margin-left: 10%;
+	/*margin-left: 10%;*/
 	padding-right: 5%;
 	padding-bottom: 5%;
 	margin-bottom: 20%;
@@ -10,7 +10,8 @@ div.contact{
 }
 
 img.contact-image{
-	height: 10%;
+	margin-top: 8%;
+	height: 8%;
 }
 
 @media only screen

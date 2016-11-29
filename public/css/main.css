@@ -4,6 +4,8 @@ white = #f7f7f7
 dark grey = #6e6e6e
 light grey = #d4d4d4*/
 
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
 body{
 	background-color: #F7F7F7;
 	color: #383838;
@@ -44,7 +46,6 @@ h3.link-title{
 
 .caption{
   position: absolute;    
-  height: 100%;
   text-align: center;    
   width: 100%;
 }
@@ -72,6 +73,7 @@ footer{
   left: 0;
   bottom: 0;
   width: 100%;
+  margin-bottom: -10%;
 }
 
 .footer a {
@@ -91,10 +93,6 @@ img.footer-social{
   font-size: .7em;
   text-align: center;
   clear: both
-}
-
-.footer p{
-  text-align: center;
 }
 
 .footer h3{

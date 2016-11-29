@@ -15,7 +15,7 @@ div.pricing{
 	padding-bottom: 5%;
 	margin-bottom: 20%;
 	box-shadow: 0 4px 3px #6e6e6e;
-	}
+}
 
 
 ul{
@@ -34,6 +34,10 @@ nav + div {
 	padding-top: 20px;
 }
 
-h3.list-title{
-	font-size: 2em;
+p{
+	font-size: 1.15em;
+}
+
+ul.answer.list li{
+	font-size: .8em;
 }
