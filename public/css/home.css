@@ -1,14 +1,44 @@
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 ul.flex{
+  list-style: none;
+  width: 100%;
+  border-bottom-style: dotted;
+  border-bottom-color: #ED3E75;
+  margin: 0;
+  text-align: center;
+}
+
+ul.flex > li{
+  display: inline-block;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+li > a{
+  text-decoration: none;
+}
+
+li#icon{
+  display: none;
+}
+
+#nav a{
+  display: block;
+}
+
+/*ul.flex{
+  display: inline-block;
   display: flex;
   flex-wrap: wrap;
   height: 70vh;
   list-style: none;
   margin-left: 13%;
-}
+}*/
 
-.box{
+/*.box{
   color: white;
   font-size: 30px;
   text-align: center;
@@ -23,9 +53,9 @@ ul.flex{
   width: 30vw;
   margin: 2vw;
 }
+*/
 
-
-@media only screen
+/*@media only screen
   and (min-device-width: 200px)
   and (max-device-width: 500px){
   ul.flex{
@@ -71,4 +101,20 @@ ul.flex{
       height: ;
     }
     
+  }*/
+
+
+  /*start gallery CSS*/
+  /*center gallery div to equal margins on both sides */
+
+
+  .item{
+    width: 200px;
+    float: left;
+    /*margin: 2px;*/
+  }
+
+  .galleryImg{
+    width: 100%;
+    display: inline-block;
   }

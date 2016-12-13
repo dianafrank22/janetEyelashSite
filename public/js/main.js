@@ -17,3 +17,8 @@ function toggleMenu(){
 		}
 	}
 }
+
+$('#gallery').masonry({
+	itemSelector: '.item',
+	columnWidth: 200
+})
