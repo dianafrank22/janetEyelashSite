@@ -10,8 +10,18 @@ body{
 	background-color: #F7F7F7;
 	color: #383838;
 	font-family: 'Open Sans', sans-serif;
+  min-height: 100vh;
 }
 
+.site{
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content{
+  flex: 1;
+}
 header{
   width: 100%;
   text-align: center;
@@ -103,6 +113,36 @@ img.footer-social{
   margin: 0;
 }
 
+/*navigation css*/
+ul.flex{
+  list-style: none;
+  width: 100%;
+  border-bottom-style: dotted;
+  border-bottom-color: #ED3E75;
+  margin: 0;
+  text-align: center;
+}
+
+ul.flex > li{
+  display: inline-block;
+  width: 15%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+li > a{
+  text-decoration: none;
+}
+
+li#icon{
+  display: none;
+}
+
+#nav a{
+  display: block;
+}
+
 
 @media only screen
   and (min-device-width: 200px)
@@ -138,3 +178,14 @@ img.footer-social{
 
   }
 
+
+/*main page gallery css*/
+  .item{
+    width: 200px;
+    float: left;
+  }
+
+  .galleryImg{
+    width: 100%;
+    display: inline-block;
+  }

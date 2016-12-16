@@ -7,14 +7,17 @@
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans|Shrikhand" rel="stylesheet">
 	<link rel="icon" href="./img/eyelashes.png">
     <link rel="stylesheet" href="./css/main.css">
-    <link rel="stylesheet" href="./css/home.css">
 	<link rel="stylesheet" href="./css/normalize.css">
 </head>
-<body>
+<body class="site">
 
+<header>
 <% include header.ejs %>
 <% include nav2.ejs %>
+</header>
 
+
+<main class="site-content">
 <div id="gallery">
 <div class="item">
 	<img class="galleryImg" src="./img/5.png"/>
@@ -74,12 +77,9 @@
 </div>
 
 </div>
+</main>
 
-
-
-
-<!-- <% include footer.ejs %>
- -->
+<% include footer.ejs %>
 </body>
 <script src="./js/jquery-2.1.4.js"></script>	
 <script src="./js/masonry.pkgd.min.js"></script>
