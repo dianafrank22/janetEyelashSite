@@ -31,8 +31,9 @@ h3{
 
 .site-content{
   flex: 1;
-  margin-left: 10%;
-  margin-right: 5%;
+  margin: 5%;
+  margin-left: 15%;
+  margin-bottom: 10%;
 }
 
 header{
@@ -195,11 +196,16 @@ li#icon{
 
 /*main page gallery css*/
   .item{
-    width: 250px;
+    width: 245px;
     float: left;
   }
 
   .galleryImg{
     width: 100%;
     display: inline-block;
+    -webkit-filter: grayscale(100%);
+  }
+
+  .galleryImg:hover{
+     -webkit-filter: grayscale(0%);
   }
