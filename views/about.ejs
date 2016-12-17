@@ -12,22 +12,29 @@
     <link rel="stylesheet" href="./css/normalize.css">
 </head>
 <body>
+<header>
 <% include header.ejs %>
-
-<div class="wrapper">
 <% include nav2.ejs %>
+</header>
 
+<main>
 <div class="about">
+	<img class="about-image" src="./img/janet.jpg"/>
 
+<div class="about-me">
 <h2 class="about"> About Janet</h2>
-
 <p>
   	I create a beautiful set of eyelash extensions with the integrity of the health of your lashes a priority. I pride myself on exceptional service.
-  <br/>
-  I am certified in eyelash extensions. I am also a licensed massage therapist and esthetician and have been in the beauty/spa industry for over 16 years. Needless to say you will be in good hands. In home visits welcomed
+ </p>
+ <p>
+ 	 I am certified in eyelash extensions. I am also a licensed massage therapist and esthetician and have been in the beauty/spa industry for over 16 years. 
+</p>
+<p>
+ 	 Needless to say you will be in good hands. In home visits welcomed
 </p>
 </div>
 </div>
+</main>
 
 <% include footer.ejs %>
 </body>

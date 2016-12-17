@@ -4,6 +4,8 @@ white = #f7f7f7
 dark grey = #6e6e6e
 light grey = #d4d4d4*/
 
+/*change size of h2 h3 tags*/
+
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
 body{
@@ -19,9 +21,20 @@ body{
   flex-direction: column;
 }
 
+h2{
+  font-size: 1.2em;
+}
+
+h3{
+  font-size: 1.1em;
+}
+
 .site-content{
   flex: 1;
+  margin-left: 10%;
+  margin-right: 5%;
 }
+
 header{
   width: 100%;
   text-align: center;
@@ -128,6 +141,7 @@ ul.flex > li{
   width: 15%;
   margin-left: auto;
   margin-right: auto;
+  font-size: 1.2em;
 }
 
 
@@ -181,7 +195,7 @@ li#icon{
 
 /*main page gallery css*/
   .item{
-    width: 200px;
+    width: 250px;
     float: left;
   }
 

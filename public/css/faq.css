@@ -9,17 +9,9 @@ ul{
 	list-style: none;
 }
 
-ul.answer{
-	list-style: decimal;
-  text-align: left;
-}
-
-ul.answer.list li{
-  font-size: 1em;
-}
-
 ul.answer.list li p{
   text-align: left;
+  font-size: .8em;
 }
 
 h3{
@@ -28,9 +20,9 @@ h3{
 
 h4.contact{
 	margin-top: 5%;
-  margin-left: 4%;
   text-align: center;
 }
+
 
 div.faq{
   padding-bottom: 5%;

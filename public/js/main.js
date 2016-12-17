@@ -20,5 +20,5 @@ function toggleMenu(){
 
 $('#gallery').masonry({
 	itemSelector: '.item',
-	columnWidth: 200
+	columnWidth: 250
 })

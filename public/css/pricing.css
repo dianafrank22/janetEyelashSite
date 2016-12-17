@@ -10,10 +10,8 @@ body{
 div.pricing{
 	background-color: #d4d4d4;
 	text-align: center;
-	margin-left: 10%;
-	padding-right: 5%;
+	margin: 5%;
 	padding-bottom: 5%;
-	margin-bottom: 20%;
 	box-shadow: 0 4px 3px #6e6e6e;
 }
 
@@ -24,8 +22,6 @@ ul{
 
 div.coupon{
 	margin-top: 10%;
-	margin-left: 5%;
-	padding-left: 5%;
 	text-align: center;
 }
 
@@ -35,9 +31,5 @@ nav + div {
 }
 
 p{
-	font-size: 1.15em;
-}
-
-ul.answer.list li{
-	font-size: .8em;
+	font-size: 1em;
 }

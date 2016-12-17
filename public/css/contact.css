@@ -2,16 +2,21 @@ div.contact{
 	background-color: #d4d4d4;
 	text-align: center;
 	margin: 5%;
-	/*margin-left: 10%;*/
-	padding-right: 5%;
 	padding-bottom: 5%;
 	margin-bottom: 20%;
 	box-shadow: 0 4px 3px #6e6e6e;
+	display: flex;
+	flex-direction: column;
+}
+
+.contact-images{
+	flex-direction: row;
 }
 
 img.contact-image{
 	margin-top: 8%;
 	height: 8%;
+	width: 8%;
 }
 
 @media only screen

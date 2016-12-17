@@ -1,19 +1,25 @@
 div.about{
 	background-color: #d4d4d4;
-	text-align: center;
-	margin: 5%;
-	margin-left: 10%;
-	padding-right: 5%;
-	padding-bottom: 5%;
-	margin-bottom: 20%;
+	margin: 10%;
 	box-shadow: 0 4px 3px #6e6e6e;
 	text-align: left;
+	display: flex;
+	justify-content: center;
 }
 
-h2.about{
-  text-align: center;
-  margin-top: 5%;
-  padding-top: 5%;
+div.about-me{
+	text-align: center;
+	margin: 5%;
+}
+
+div.about-me > p{
+	font-size: 1.01em;
+}
+
+img.about-image{
+	width: 40%;
+	height: 40%;
+	margin: 2%;
 }
 
 
